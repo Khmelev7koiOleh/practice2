@@ -1,0 +1,10 @@
+$er:purple;
+.sass{
+	padding: 20px;
+	background: $er;
+	color: white ;
+	&:hover{
+		background: lighten($er, 20%);
+		font-size: 40px;
+	}
+}
